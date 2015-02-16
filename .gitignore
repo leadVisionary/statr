@@ -1,0 +1,7 @@
+.gradle
+*.iml
+.class
+.zip
+build
+gradle
+.idea
