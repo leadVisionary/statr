@@ -1,11 +1,11 @@
 package com.visionarysoftwaresolutions.statr.chartr;
 
 import com.google.common.collect.Maps;
+import com.visionarysoftwaresolutions.statr.chartr.api.Chartable;
+import com.visionarysoftwaresolutions.statr.chartr.api.IndependentVariable;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.Arrays;
-import java.util.EnumMap;
 import java.util.Map;
 
 import static org.junit.Assert.assertEquals;

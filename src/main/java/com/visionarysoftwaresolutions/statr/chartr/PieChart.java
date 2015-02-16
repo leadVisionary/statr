@@ -2,6 +2,9 @@ package com.visionarysoftwaresolutions.statr.chartr;
 
 
 import com.google.common.collect.Sets;
+import com.visionarysoftwaresolutions.statr.chartr.api.Chartable;
+import com.visionarysoftwaresolutions.statr.chartr.api.Dataset;
+import com.visionarysoftwaresolutions.statr.chartr.api.IndependentVariable;
 import lombok.NonNull;
 
 import java.math.BigDecimal;

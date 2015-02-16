@@ -1,6 +1,7 @@
 package com.visionarysoftwaresolutions.statr.chartr;
 
 import com.google.common.collect.Maps;
+import com.visionarysoftwaresolutions.statr.chartr.api.Dataset;
 import org.junit.Before;
 import org.junit.Test;
 

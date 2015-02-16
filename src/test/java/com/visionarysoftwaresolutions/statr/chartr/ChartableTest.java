@@ -1,6 +1,9 @@
 package com.visionarysoftwaresolutions.statr.chartr;
 
 import com.google.common.collect.Maps;
+import com.visionarysoftwaresolutions.statr.chartr.api.Chartable;
+import com.visionarysoftwaresolutions.statr.chartr.api.Dataset;
+import com.visionarysoftwaresolutions.statr.chartr.api.IndependentVariable;
 import org.junit.Test;
 import java.util.Map;
 import static org.junit.Assert.assertEquals;

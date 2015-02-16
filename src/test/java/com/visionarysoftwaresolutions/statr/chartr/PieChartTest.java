@@ -2,10 +2,11 @@ package com.visionarysoftwaresolutions.statr.chartr;
 
 import com.google.common.collect.Maps;
 
+import com.visionarysoftwaresolutions.statr.chartr.api.Chartable;
+import com.visionarysoftwaresolutions.statr.chartr.api.IndependentVariable;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;

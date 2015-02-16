@@ -1,11 +1,10 @@
 package com.visionarysoftwaresolutions.statr.chartr;
 
-import com.google.common.collect.Sets;
+import com.visionarysoftwaresolutions.statr.chartr.api.Chartable;
+import com.visionarysoftwaresolutions.statr.chartr.api.Dataset;
 import lombok.NonNull;
 
-import java.util.Collection;
 import java.util.Map;
-import java.util.Set;
 
 /**
  * Created by Master on 2/14/2015.

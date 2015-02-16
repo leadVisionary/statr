@@ -1,5 +1,6 @@
 package com.visionarysoftwaresolutions.statr.chartr;
 
+import com.visionarysoftwaresolutions.statr.chartr.api.Datum;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.Delegate;

@@ -1,4 +1,4 @@
-package com.visionarysoftwaresolutions.statr.chartr;
+package com.visionarysoftwaresolutions.statr.chartr.api;
 
 import java.util.Collection;
 

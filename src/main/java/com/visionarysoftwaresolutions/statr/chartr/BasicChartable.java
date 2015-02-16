@@ -1,5 +1,7 @@
 package com.visionarysoftwaresolutions.statr.chartr;
 
+import com.visionarysoftwaresolutions.statr.chartr.api.Chartable;
+import com.visionarysoftwaresolutions.statr.chartr.api.Dataset;
 import lombok.NonNull;
 
 final class BasicChartable implements Chartable {

@@ -2,11 +2,12 @@ package com.visionarysoftwaresolutions.statr.chartr;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
+import com.visionarysoftwaresolutions.statr.chartr.api.Dataset;
+import com.visionarysoftwaresolutions.statr.chartr.api.DatasetVisitor;
+import com.visionarysoftwaresolutions.statr.chartr.api.IndependentVariable;
 
-import java.util.Collection;
 import java.util.Map;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 /**
  * Created by Master on 2/15/2015.

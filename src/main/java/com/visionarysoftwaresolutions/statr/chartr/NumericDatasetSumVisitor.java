@@ -1,5 +1,8 @@
 package com.visionarysoftwaresolutions.statr.chartr;
 
+import com.visionarysoftwaresolutions.statr.chartr.api.Dataset;
+import com.visionarysoftwaresolutions.statr.chartr.api.DatasetVisitor;
+import com.visionarysoftwaresolutions.statr.chartr.api.IndependentVariable;
 import lombok.NonNull;
 
 /**
