@@ -58,10 +58,10 @@ public class PieChart {
         private Number proportionOfWhole(final IndependentVariable x) {
             // x / area = value for x / sum
             final Dataset s = d.getDataset();
-            NumericDatasetSumVisitor summer = new NumericDatasetSumVisitor();
+            final NumericDatasetSumVisitor summer = new NumericDatasetSumVisitor();
             summer.visit(s);
             final Number sum = summer.getSum();
-            QuantativeData qd = s.getValuesFor(x);
+            final QuantativeData qd = s.getValuesFor(x);
             final BigDecimal dividedBySum = BigDecimal.valueOf(qd.sum().doubleValue())
                                             .divide(BigDecimal.valueOf(sum.doubleValue()));
             return dividedBySum.multiply(BigDecimal.valueOf(c.area().doubleValue()));
